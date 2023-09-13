@@ -1,0 +1,254 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Roboto Serif', serif;
+	background-color: rgb(234, 238, 238);
+}
+
+.contenedor{
+	width: 90%;
+	max-width: 1200px;
+	overflow: hidden;
+	margin: auto;
+	padding: 60px 0;
+}
+
+header{
+	height: 100vh;
+	background-image: linear-gradient(120deg, rgba(137, 170, 224, 0.173) 0%, rgba(106, 192, 232, 0.199) 100%), 
+	url(./Imágenes/Inicio_MasterClass.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	margin-bottom: 45px;
+}
+
+.head{
+	padding: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: end;
+	color: azure;
+}
+
+.buscador{
+	color: rgb(204, 183, 167);
+	padding: 5px 30px;
+	margin: 0%;
+	text-decoration: none;
+	
+}
+
+.buscador:hover{
+	background: rgba(42, 55, 88, 0.356);
+	border-radius: .4rem;
+}
+
+.menu{
+	position: fixed;
+	background-color: rgba(15, 18, 20, 0.931);
+	width: 100%;
+	padding: 5px;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 18px;
+}
+
+.search{
+	border-color: rgba(45, 59, 187, 0.455);
+	border-radius: 2rem;
+	width: 20%;
+}
+
+.titulo{
+	font-size: 58px;
+	margin-bottom: 15px;
+}
+
+.subhead{
+	font-weight: 300;
+	font-size: 25px;
+	margin-bottom: 60px;
+}
+
+/*Bienvenidos*/
+
+.welcome{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 50px;
+}
+
+.titulowelcome{
+	text-align: center;
+	font-weight: 350;
+	color: rgb(12, 12, 13);
+	margin-bottom: 40px;
+	font-size: 38px; 
+	font-family: 'DM Serif Display', serif;
+}
+
+.imgBienvenida img{
+	width: 350px;
+	height: 500px;
+	margin-left: 110px;
+	border-radius: .6rem;
+	border-style: solid;
+	margin-top: 80px;
+}
+
+.textoBienvenida{
+	display: flex;
+	flex-direction: column;
+	margin: 60px;
+	text-align: center;
+	font-size: 22px;
+	color: rgba(0, 0, 0, 0.531);
+	margin-top: 100px;
+
+}
+
+/*menu de clases*/
+
+.menudeclases{
+	background: rgba(155, 171, 171, 0.218);
+	margin-bottom: 20px;
+}
+
+.subtituloClases{
+	text-align: center;
+	font-weight: 300;
+	color: rgb(12, 12, 13);
+	margin-bottom: 40px;
+	font-size: 39px; 
+	font-family: 'DM Serif Display', serif;
+	padding-top: 50px;
+	margin-bottom: 80px;
+}
+
+.contenedor-iconos{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	
+}
+
+.imgicono{
+	width: 10%;
+	display: block;
+	margin-bottom: 120px;
+	margin-right: 100px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(112, 86, 16, 0.401);
+	border-radius: 2.5rem;
+	margin-left: 100px;
+	cursor: pointer;
+
+}
+
+.imgicono:hover{
+	background: rgba(137, 108, 13, 0.431);
+}
+
+/*lives*/
+
+.lives{
+	background: rgb(234, 238, 238);
+}
+
+.titulolives{
+	text-align: center;
+	font-weight: 300;
+	color: rgb(12, 12, 13);
+	margin-bottom: 35px;
+	font-size: 39px; 
+	font-family: 'DM Serif Display', serif;
+	padding-top: 50px;
+}
+
+.video{
+	width: 60%;
+	margin-left: 20%;
+	margin-bottom: 40px;
+	border-radius: 2rem;
+	box-shadow: 0 0 20px #65620add;
+}
+
+/*Footer*/
+
+footer{
+	background: rgba(53, 51, 56, 0.241);
+	padding-bottom: 0.1px;
+}
+
+.marca{
+	font-size: 30px;
+	padding-bottom: 15px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.contenedor-footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-right: 50px;
+
+}
+
+.redessociales{
+	width: 50%;
+	display: flex;
+	justify-content: end;
+}
+
+.icono-redesSociales{
+	display: inline-block;
+	margin-left: 20px;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.icono-redesSociales:hover{
+	background: #fff;
+}
+
+.icono-redesSociales i{
+	font-size: 30px;
+	line-height: 60px;
+}
+
+.derechos{
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
